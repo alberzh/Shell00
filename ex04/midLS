@@ -1,1 +1,7 @@
-ls -m -t -p
+# -m añade una coma entre cada archivo o directorio
+# -t ordena por fecha, más reciente el primero
+# -p añade / a los directorios
+# el grep -v filtra lo que no cumpla el patrón
+# en el patrón el circunflejo es para que empiece por lo que le siga '^\.'
+# \. es literal que empiece por un punto
+ls -mtp | grep -v '^\.'

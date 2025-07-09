@@ -1,0 +1,12 @@
+# Esto es un comentario
+# El * se usa como comodín
+# El / se usa para ignorar rutas relativas al .gitignore
+# Y la # para estos comentarios
+# La siguiente línea ignora los archivos del sistema Mac
+.DS_store
+# Esto para ignorar todos los archivos de texto
+*.txt
+# Esto para ignorar los archivos con las API keys y claves de entorno
+.env
+# Esto para ignorar la carpeta "archivos"
+archivos/
