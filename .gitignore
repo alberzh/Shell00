@@ -10,3 +10,4 @@
 .env
 # Esto para ignorar la carpeta "archivos"
 archivos/
+.gitignore
